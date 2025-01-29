@@ -77,7 +77,7 @@ class ChatController {
             await convertTextToSpeech(content, outputAudioPath);
 
             // Create video from audio
-            await createVideoFromAudio(outputAudioPath, imagesDirectory,outputVideoPath);
+            await createVideoFromAudio(outputAudioPath, content, outputVideoPath);
 
             res.json({
                 message: 'File processed successfully!',
