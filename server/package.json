@@ -12,6 +12,7 @@
   "type": "module",
   "description": "",
   "dependencies": {
+    "@pixiv/three-vrm": "^3.3.4",
     "@types/three": "^0.172.0",
     "axios": "^1.7.9",
     "bcrypt": "^5.1.1",
